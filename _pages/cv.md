@@ -7,58 +7,81 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<h2>Curriculum Vitae</h2>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<h3>Employment</h3>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<ul>
+  <li>
+    <strong>Assistant Professor</strong><br>
+    Department of Intelligent Science, School of Advanced Technology<br>
+    Xi'an Jiaotong-Liverpool University
+  </li>
+</ul>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<h3>Research Interests</h3>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<ul>
+  <li>Computer Vision</li>
+  <li>Weakly Supervised Learning</li>
+  <li>Semantic Segmentation</li>
+  <li>Visual Foundation Models</li>
+  <li>Industrial Anomaly Detection</li>
+  <li>Point Cloud Understanding</li>
+  <li>Multimodal Learning</li>
+</ul>
+
+<h3>Selected Publications</h3>
+
+<p>
+  Please see my 
+  <a href="/publications/">Publications</a> 
+  page for more details.
+</p>
+
+<h3>Teaching</h3>
+
+<ul>
+  <li>
+    <strong>INT302 Image Processing</strong><br>
+    Undergraduate module on image processing, image analysis, and computer vision.
+  </li>
+
+  <br>
+
+  <li>
+    <strong>INT305 Machine Learning</strong><br>
+    Undergraduate module on machine learning theories, methods, and applications.
+  </li>
+
+  <br>
+
+  <li>
+    <strong>INT102</strong><br>
+    Fundamental computing and programming-related teaching support.
+  </li>
+</ul>
+
+<h3>Supervision</h3>
+
+<ul>
+  <li>Undergraduate final year projects</li>
+  <li>Master's research projects</li>
+  <li>MRes and PhD co-supervision</li>
+  <li>Research projects in computer vision and artificial intelligence</li>
+</ul>
+
+<h3>Professional Services</h3>
+
+<ul>
+  <li>Reviewer for international journals and conferences in computer vision and artificial intelligence.</li>
+  <li>Supervisor and assessor for undergraduate and postgraduate research projects.</li>
+  <li>Contributor to academic activities in computer vision, machine learning, and artificial intelligence.</li>
+</ul>
+
+<h3>Full CV</h3>
+
+<p>
+  A full CV will be uploaded soon.
+</p>
