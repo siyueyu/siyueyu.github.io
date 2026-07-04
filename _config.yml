@@ -23,11 +23,11 @@ repository               : "siyueyu/siyueyu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "1.png"
   name             : "Siyue Yu"
   pronouns         : "she/her"# example: "she/her"  
   bio              : "Assistant Professor in Computer Vision and Artificial Intelligence"
-  location         : "Suzhou"
+  location         : "Suzhou, China"
   employer         : "XJTLU"
   uri              : # URL
   email            : "siyue.yu02@xjtlu.edu.cn" 
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com.hk/citations?user=AdxzTKsAAAAJ&hl=zh-CN&oi=ao"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0006-6749-4318"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
