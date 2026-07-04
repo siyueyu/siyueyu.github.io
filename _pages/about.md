@@ -115,7 +115,7 @@ redirect_from:
   <p style="margin-top: 18px;">
     <a class="button-link" href="/publications/">Publications</a>
     <a class="button-link button-secondary" href="/research/">Research</a>
-    <a class="button-link" href="/teaching/">Prospective Teaching</a>
+    <a class="button-link" href="/teaching/">Teaching</a>
   </p>
 </div>
 
