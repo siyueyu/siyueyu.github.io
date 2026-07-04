@@ -55,12 +55,6 @@ redirect_from:
     Undergraduate module on machine learning theories, methods, and applications.
   </li>
 
-  <br>
-
-  <li>
-    <strong>INT102</strong><br>
-    Fundamental computing and programming-related teaching support.
-  </li>
 </ul>
 
 <h3>Supervision</h3>
