@@ -8,154 +8,262 @@ redirect_from:
 ---
 
 <style>
-  .hero-box {
-    background: linear-gradient(135deg, #f3f7ff 0%, #eef8f5 100%);
-    border-radius: 18px;
-    padding: 32px 36px;
-    margin-bottom: 28px;
-    border: 1px solid #e3eaf5;
+  .home-hero {
+    background: linear-gradient(135deg, #eef5ff 0%, #f7fbff 45%, #f0faf7 100%);
+    border: 1px solid #dbeafe;
+    border-radius: 22px;
+    padding: 34px 38px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 28px rgba(30, 64, 175, 0.08);
   }
 
-  .hero-title {
-    font-size: 32px;
-    font-weight: 700;
+  .home-hero h1 {
+    font-size: 36px;
+    margin-top: 0;
     margin-bottom: 8px;
-    color: #1f2937;
+    color: #111827;
   }
 
-  .hero-subtitle {
+  .home-hero .subtitle {
     font-size: 18px;
-    color: #4b5563;
+    color: #374151;
     margin-bottom: 18px;
+    font-weight: 500;
+  }
+
+  .home-hero p {
+    font-size: 16px;
+    color: #374151;
+    line-height: 1.75;
+  }
+
+  .tag-row {
+    margin-top: 20px;
   }
 
   .tag {
     display: inline-block;
-    background: #ffffff;
-    border: 1px solid #dbeafe;
-    color: #1d4ed8;
-    padding: 6px 12px;
+    padding: 7px 13px;
     margin: 4px 6px 4px 0;
     border-radius: 999px;
-    font-size: 14px;
-  }
-
-  .section-card {
     background: #ffffff;
-    border: 1px solid #e5e7eb;
-    border-radius: 16px;
-    padding: 24px 28px;
-    margin: 22px 0;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+    font-size: 13px;
+    font-weight: 500;
   }
 
-  .section-card h2 {
-    margin-top: 0;
-    color: #1f2937;
-    border-bottom: 2px solid #e5e7eb;
-    padding-bottom: 8px;
+  .button-row {
+    margin-top: 24px;
   }
 
-  .highlight-list li {
-    margin-bottom: 10px;
-  }
-
-  .button-link {
+  .home-button {
     display: inline-block;
-    padding: 9px 16px;
-    margin: 6px 8px 6px 0;
+    padding: 10px 18px;
+    margin: 5px 8px 5px 0;
+    border-radius: 10px;
     background: #2563eb;
-    color: white !important;
-    border-radius: 8px;
+    color: #ffffff !important;
     text-decoration: none;
     font-size: 14px;
+    font-weight: 600;
   }
 
-  .button-link:hover {
+  .home-button:hover {
     background: #1d4ed8;
     text-decoration: none;
   }
 
-  .button-secondary {
+  .home-button.green {
     background: #0f766e;
   }
 
-  .button-secondary:hover {
+  .home-button.green:hover {
     background: #115e59;
   }
 
+  .home-button.gray {
+    background: #374151;
+  }
+
+  .home-button.gray:hover {
+    background: #1f2937;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin: 26px 0;
+  }
+
+  .info-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 24px 26px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.045);
+  }
+
+  .info-card h2 {
+    margin-top: 0;
+    font-size: 21px;
+    color: #111827;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+  }
+
+  .info-card p {
+    color: #374151;
+    line-height: 1.7;
+  }
+
+  .info-card ul {
+    padding-left: 20px;
+  }
+
+  .info-card li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+
+  .full-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 25px 28px;
+    margin: 24px 0;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.045);
+  }
+
+  .full-card h2 {
+    margin-top: 0;
+    color: #111827;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+  }
+
   .news-item {
-    margin-bottom: 10px;
-    padding-left: 12px;
-    border-left: 3px solid #2563eb;
+    padding: 10px 0 10px 14px;
+    border-left: 4px solid #2563eb;
+    margin-bottom: 12px;
+    color: #374151;
+  }
+
+  .paper-item {
+    margin-bottom: 16px;
+    line-height: 1.65;
+  }
+
+  .paper-title {
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .paper-venue {
+    color: #4b5563;
+    font-style: italic;
+  }
+
+  @media (max-width: 800px) {
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .home-hero {
+      padding: 26px 24px;
+    }
+
+    .home-hero h1 {
+      font-size: 30px;
+    }
   }
 </style>
 
-<div class="hero-box">
-  <div class="hero-title">Siyue Yu</div>
+<div class="home-hero">
+  <h1>Siyue Yu</h1>
 
-  <div class="hero-subtitle">
+  <div class="subtitle">
     Assistant Professor in Computer Vision and Artificial Intelligence
   </div>
 
   <p>
     I am an Assistant Professor at Xi'an Jiaotong-Liverpool University. My research focuses on
     computer vision, weakly supervised learning, semantic segmentation, visual foundation models,
-    point cloud understanding, and industrial anomaly detection.
+    industrial anomaly detection, point cloud understanding, and multimodal visual perception.
   </p>
 
-  <div>
+  <div class="tag-row">
     <span class="tag">Computer Vision</span>
     <span class="tag">Weakly Supervised Learning</span>
     <span class="tag">Visual Foundation Models</span>
     <span class="tag">Semantic Segmentation</span>
     <span class="tag">Anomaly Detection</span>
+    <span class="tag">3D Scene Understanding</span>
   </div>
 
-  <p style="margin-top: 18px;">
-    <a class="button-link" href="/publications/">Publications</a>
-    <a class="button-link button-secondary" href="/research/">Research</a>
-    <a class="button-link" href="/teaching/">Teaching</a>
-  </p>
+  <div class="button-row">
+    <a class="home-button" href="/publications/">Publications</a>
+    <a class="home-button green" href="/research/">Research</a>
+    <a class="home-button gray" href="/teaching/">Teaching</a>
+  </div>
 </div>
 
-<div class="section-card">
-  <h2>About Me</h2>
+<div class="card-grid">
+  <div class="info-card">
+    <h2>Research Focus</h2>
+    <p>
+      My research aims to reduce annotation costs and improve the generalization ability of
+      visual perception models in open and complex scenarios.
+    </p>
+    <ul>
+      <li>Weakly supervised semantic segmentation</li>
+      <li>Foundation-model-driven dense prediction</li>
+      <li>Open-world and open-vocabulary perception</li>
+      <li>Efficient visual understanding</li>
+    </ul>
+  </div>
+
+  <div class="info-card">
+    <h2>Recruitment</h2>
+    <p>
+      I am looking for motivated students interested in computer vision, artificial intelligence,
+      weakly supervised learning, visual foundation models, and industrial anomaly detection.
+    </p>
+    <p>
+      Students with strong programming skills and research interests are welcome to contact me.
+    </p>
+  </div>
+</div>
+
+<div class="full-card">
+  <h2>Selected Publications</h2>
+
+  <div class="paper-item">
+    <div class="paper-title">
+      Frozen CLIP-DINO: A Strong Backbone for Weakly Supervised Semantic Segmentation
+    </div>
+    Bingfeng Zhang, <strong>Siyue Yu</strong>, Jimin Xiao, Yunchao Wei, Yao Zhao<br>
+    <span class="paper-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span>, 2026<br>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10891864" target="_blank">[PDF]</a>
+    <a href="https://github.com/zbf1991/WeCLIP" target="_blank">[Code]</a>
+  </div>
+
 
   <p>
-    My recent research explores how to reduce annotation costs and improve the generalization
-    ability of visual perception models in open and complex scenarios. I am especially interested
-    in weakly supervised semantic segmentation, foundation-model-driven dense prediction,
-    efficient multimodal understanding, and lightweight visual intelligence.
-  </p>
-
-  <p>
-    I have published papers in leading journals and conferences, including TPAMI, CVPR, ICCV,
-    AAAI, and IJCAI.
+    <a href="/publications/">View full publication list →</a>
   </p>
 </div>
 
-<div class="section-card">
-  <h2>Research Interests</h2>
-
-  <ul class="highlight-list">
-    <li><strong>Weakly Supervised Visual Learning:</strong> reducing dependence on dense manual annotations.</li>
-    <li><strong>Visual Foundation Models:</strong> adapting CLIP, DINO, and related models for dense prediction.</li>
-    <li><strong>Open-world Visual Perception:</strong> improving generalization in complex scenarios.</li>
-    <li><strong>Industrial Anomaly Detection:</strong> learning robust models under limited defect samples.</li>
-    <li><strong>3D Scene Understanding:</strong> point cloud and multimodal perception for safety-critical scenarios.</li>
-  </ul>
-</div>
-
-<div class="section-card">
+<div class="full-card">
   <h2>News</h2>
-
-  <div class="news-item">
-    <strong>2026:</strong> We got 1 paper accepted by ECCV2026! Congrats to master student Shuwei Wu!
-  </div>
 
   <div class="news-item">
     <strong>2026:</strong> I am looking for motivated students interested in computer vision,
     weakly supervised learning, visual foundation models, and industrial anomaly detection.
+  </div>
+
+  <div class="news-item">
+    <strong>2026:</strong> We got 1 paper accepted by ECCV2026. Congrats to the master student Shuwei Wu!
   </div>
 </div>
