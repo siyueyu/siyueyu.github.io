@@ -244,7 +244,7 @@ redirect_from:
       Frozen CLIP-DINO: A Strong Backbone for Weakly Supervised Semantic Segmentation
     </div>
     Bingfeng Zhang, <strong>Siyue Yu</strong>, Jimin Xiao, Yunchao Wei, Yao Zhao<br>
-    <span class="paper-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span>, 2026<br>
+    <span class="paper-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span>, 2025<br>
     <a href="https://ieeexplore.ieee.org/abstract/document/10891864" target="_blank">[PDF]</a>
     <a href="https://github.com/zbf1991/WeCLIP" target="_blank">[Code]</a>
   </div>
