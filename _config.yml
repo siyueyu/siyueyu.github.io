@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Siyue Yu"
-  pronouns         : "she/her"# example: "she/her"  
+  pronouns         : "she/her" # example: "she/her"  
   bio              : "Assistant Professor in Computer Vision and Artificial Intelligence"
   location         : "Suzhou, China"
   employer         : "XJTLU"
