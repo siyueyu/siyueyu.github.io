@@ -115,7 +115,7 @@ redirect_from:
   <p style="margin-top: 18px;">
     <a class="button-link" href="/publications/">Publications</a>
     <a class="button-link button-secondary" href="/research/">Research</a>
-    <a class="button-link" href="/students/">Prospective Students</a>
+    <a class="button-link" href="/teaching/">Prospective Teaching</a>
   </p>
 </div>
 
@@ -151,12 +151,11 @@ redirect_from:
   <h2>News</h2>
 
   <div class="news-item">
-    <strong>2026:</strong> I am looking for motivated students interested in computer vision,
-    weakly supervised learning, visual foundation models, and industrial anomaly detection.
+    <strong>2026:</strong> We got 1 paper accepted by ECCV2026! Congrats to master student Shuwei Wu!
   </div>
 
   <div class="news-item">
-    <strong>2026:</strong> Our recent work on weakly supervised visual understanding and foundation models
-    is under active development.
+    <strong>2026:</strong> I am looking for motivated students interested in computer vision,
+    weakly supervised learning, visual foundation models, and industrial anomaly detection.
   </div>
 </div>
